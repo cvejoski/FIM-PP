@@ -58,18 +58,6 @@ Use the inference script for model evaluation:
 python scripts/inference.py --config configs/inference/example.yaml
 ```
 
-## Key Features
-
-- **Zero-shot inference** of Markov jump processes from sparse observations
-- **Neural network models** trained on synthetic MJP datasets
-- **Support for various dynamical systems** including:
-  - Discrete flashing ratchet systems
-  - Molecular simulation dynamics
-  - Ion channel data
-  - Protein folding models
-- **Distributed training** support with PyTorch
-- **Comprehensive evaluation** tools and metrics
-
 ## Configuration
 
 The system uses YAML configuration files for all parameters. Key sections include:
